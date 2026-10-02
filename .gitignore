@@ -1,0 +1,10 @@
+.env
+.credential-check-state.json
+.scheduler-state.json
+.check.lock
+.check.lock.*
+__pycache__/
+node_modules/
+package-lock.json
+*.log
+.DS_Store

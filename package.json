@@ -1,0 +1,20 @@
+{
+  "name": "gemini2api-mcp",
+  "version": "1.0.0",
+  "description": "MCP wrapper + credential auto-sync + service patches for gemini2api (Gemini Web to OpenAI-compatible API)",
+  "license": "MIT",
+  "private": false,
+  "type": "module",
+  "scripts": {
+    "start": "node server.mjs",
+    "check": "node check.mjs",
+    "test": "node --test check.test.mjs run-scheduled.test.mjs"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/server": "2.1.0",
+    "zod": "4.6.5"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
